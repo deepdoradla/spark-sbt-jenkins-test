@@ -9,6 +9,6 @@ class SimpleJobTest extends FunSuite with Matchers{
   test("Number of A's and number of B's"){
     val value = SimpleJobApp.getA()
 
-    value should be(1)
+    value should be(2)
   }
 }
